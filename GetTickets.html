@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tickets</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="tickets">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a><br></li>
+					<li><a href="GetTickets.html">Tickets</a></li>
+					<link rel="stylesheet" type="text/css" href="style.css">
+				</ul>
+			</nav>
+
+		<header>
+			<div id="header" style="background: url(images/conference-hero.jpg); background-position: center; background-size: cover;"">
+						<img src="images/hero-symbol.jpg" alt="hero symbol">
+						<h1>ADVANCING TECHNOLOGY</h1><br>
+						<h2>1st Annual Budding Developers Conference</h2><br>
+						<p>Orlando,FL-October 11, 2019</p><br>
+			</div>
+		</header>
+
+			<section id="tickets-form">
+				<h1> Get Your tickets! </h1>
+				<div class="wrap">
+						<form>
+							<h4> Your info </h4> 
+
+								<label for="Name">Name</label>
+								<input class="block-input" type="text" name="Name" required placeholder="NAME">
+				
+								<label for="Email"> Email</label>
+								<input class="block-input" type="email" name="Email" required placeholder="EMAIL">
+						
+					
+						<h4>Package</h4> 
+							<p class="select-dropdown">
+								<select name="package">
+									<option value="standard">Standard - $149</option>
+									<option value="premium">Premium - $249</option>
+								</select>
+							</p>
+
+							<p>
+							<input type="checkbox" name="Lodging" value="Add on lodging-$99">Add on Lodging - $99 <br>
+							<input type="checkbox" name="meals" value="Add on meals-$119">Add on Meals - $119 <br>
+							</p>
+
+						<p>
+							<input type="submit" name="submit">
+							<label for="Submit"></label>
+						</p>
+						</form>
+				</div>
+			</section>
+		
+	<footer>
+			<p>&copy;2019</p>
+	</footer>
+</body>
+</html>

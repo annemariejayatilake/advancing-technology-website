@@ -1,0 +1,264 @@
+/*Base Styles*/
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;
+	margin: 25px 0px;
+}
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 34px;
+}
+h3{
+	font-size: 32px;
+}
+h4{
+	font-size: 25px;
+}
+
+p{
+	font-size: 18px;
+	line-height: 1.4;
+}
+body{
+	font-family: 'Open-Sans', sans-serif;
+	margin: 0 auto;
+}
+
+.button{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgb(254 95 85);
+	border-radius: 12px;
+	padding: 10px;
+	width: 10%;
+}
+
+/*Defaults*/
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+section{
+	overflow: auto;
+}
+
+.wrap{
+	max-width: 1280px;
+	padding: 50px;
+}
+/*Home Page*/
+
+/*Header*/
+
+header{
+	text-align: center;
+	color: #ffffff;
+	padding: 80px 0px;
+}
+
+header img{
+	/*To center the img*/
+	margin:	0 auto;
+	/*To resize the image*/
+	width: 100px;
+	border-radius: 50%;
+	border:	5px solid white;
+	padding: 4px;
+
+
+}
+
+/*Three-Points Section*/
+
+
+.three-points-section{
+	min-height: 400px;
+	background-image: url("swirl.png");
+}
+
+.three-points-section img{
+	/*This affects all three images*/
+	width: 300px; 
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+#three-points img:hover {
+	border: 5px solid black;
+}
+
+.three-points-image{
+	width: 40%;
+	float: left;
+}
+
+.three-points-text{
+	width: 60%;
+	float: left;
+}
+
+/*Two-column price list*/
+/*border collapse, border and padding for td and th, focus?*/
+
+.two-column-price-section{
+	background-color: rgb(189 213 234);
+	text-align: center;
+	border-top: 1px dashed rgb(73 88 103);
+	border-bottom: 1px dashed rgb(73 88 103);
+
+}
+
+.two-column-price-section table{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border-collapse: collapse;
+}
+
+.two-column-price-section table th{
+	color:white;
+	background-color:rgb(73 88 103);
+	border: 5px solid rgb(189 213 234);
+	padding: 25px;
+}
+
+.two-column-price-section table td{
+	background-color: #ffffff;
+	border: 5px solid rgb(189 213 234);
+	padding: 25px;
+}
+
+/*Speakers*/
+
+section#speakers .wrap {
+	overflow: auto;
+}
+
+.day-one-column, .day-two-column {
+    float: left;
+    width: 45%;
+}
+
+.day-one-column{
+background-image: url("swirl.png");
+box-shadow: 5px 5px 5px 5px grey;
+}
+
+.day-two-column {
+background-image: url("swirl.png");
+box-shadow: 5px 5px 5px 5px grey;
+}
+
+.day-one-column, .day-two-column h4 {
+    text-align: center;
+}
+
+.speakers {
+    clear:both;
+
+    min-height: 200px;
+}
+
+.speaker-images {
+    width: 50%;
+    float:left;
+}
+
+.speaker-images img {
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.speaker-text {
+    width: 50%;
+    float: left;
+}
+
+/*Countdown*/
+#countdown{
+	background-color: rgb(189 213 234);
+	padding: 50px 100px;
+	text-align: left;
+}
+
+/*footer*/
+footer{
+	background-color: rgb(73 88 103);
+	text-align: center;
+	padding: none;
+}
+
+/*GET TICKETS SECTION*/
+
+
+#tickets-form h1{
+	text-align: center;
+}
+
+#tickets-form{
+	margin: 0 auto;
+	text-align: center;
+}
+/*This focuses on the entire form element*/
+#tickets-form form{
+	/*To center the form*/
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	width: 400px;
+	background: url('/images/swirl.png');
+	/*To add a border*/
+	border: 1px solid #efefef;
+	box-shadow: 2px 2px #efefef;
+}
+/*This removes the label*/
+#tickets-form form label{
+	display: none;
+}
+
+/*This handles the email and name portion*/
+#tickets-form .block-input{
+	display: block;
+	margin: 0 auto;
+	/*This adds space underneath the name and email */
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/*This collectively selects the entire select package portion*/
+#tickets-form form .select-dropdown{
+	padding: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border: 1px solid #dedede;
+	width: 200px;
+}
+
+/*This physically focuses on the select feature*/
+#tickets-form form .select-dropdown select{
+	border: none;
+	background-color: #fff;
+	width: 100%;
+}
+/*This how you select the input type in a form*/
+#tickets-form form input[type="checkbox"]{
+	margin-right: 10px;
+}
+
+#tickets-form form input[type="submit"]{
+	background-color: #fe5f55;
+	border-radius: 5px;
+	color: white;
+	padding: 8px 20px;
+}
+
+
+
+
+
+
