@@ -257,8 +257,22 @@ footer{
 	padding: 8px 20px;
 }
 
+/* Media Queries */
+/* Max widths are 1 less than the designated size number */
+/* Min widths are the number you start with  */
+@media only screen and (max-width: 1199px ){
 
+}
+@media only screen and (max-width: 1023px ){
+	
+}
+@media only screen and (max-width: 767px ){
+	
+}
 
+@media only screen and (max-width: 470px ){
+	
+}
 
 
 
